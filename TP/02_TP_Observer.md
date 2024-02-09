@@ -16,6 +16,20 @@ class User implements SplSubject {
     // ... (le reste du code reste inchangé)
 }
 ```
+:rocket: SplSubject et SplObserver sont des interfaces de PHP, vous n'avez pas à les créer.
+```php
+interface SplSubject {
+/* Méthodes */
+public attach(SplObserver $observer): void
+public detach(SplObserver $observer): void
+public notify(): void
+}
+
+interface SplObserver {
+/* Méthodes */
+public update(SplSubject $subject): void
+}
+```
 
 Voyons maintenant une classe observeur (Observer) avec l'interface SplObserver (méthode update) de PHP :
 
