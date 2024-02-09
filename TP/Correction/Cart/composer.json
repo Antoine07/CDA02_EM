@@ -1,0 +1,17 @@
+{
+    "name": "alan/cart",
+    "authors": [
+        {
+            "name": "Alan",
+            "email": "alan@alan.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require-dev": {
+       
+    }
+}
