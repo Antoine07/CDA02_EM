@@ -54,7 +54,7 @@ Vous allez créer votre premier design pattern à l'aide de PHP.
    ```php
    <?php
    class FormFactory {
-     
+     // TODO créez des méthodes qui créent des objets de type Circle et Square
    }
    ```
 
